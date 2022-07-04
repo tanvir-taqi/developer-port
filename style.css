@@ -10,7 +10,7 @@ h1{
 .peter{
     color: orange;
 }
-section{
+.section-flex{
     display: flex;
     margin-bottom: 180px;
 }
@@ -19,9 +19,10 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.half-width{
+.half-width, .half-width-ex{
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
 }
 .half-width img {
     width: 100%;
@@ -38,4 +39,24 @@ section{
     background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.half-width-ex{
+    box-shadow: 10px 10px 40px rgb(133, 125, 125);
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.experience{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full{
+    border-left: 8px solid tomato;
+}
+#baby{
+    border-left: 8px solid blue;
+}
+footer p {
+    text-align: center;
 }
