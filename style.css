@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.peter{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.top-banner{
+    background: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img {
+    width: 100%;
+}
+.link-btn{
+    text-decoration: none;
+    background: linear-gradient(to right, rgb(226, 159, 13) , rgb(138, 121, 25));
+    padding: 10px 40px;
+    color: azure;
+    font-weight: 500;
+    border-radius: 5px;
+}
